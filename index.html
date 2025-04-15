@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactivo - Gustavo Adrian Rojas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cv-header">
+        <header class="header">
+            <button class="dark-mode-toggle" aria-label="Alternar modo oscuro">
+                <i class="fas fa-moon"></i> <span class="toggle-text">Modo Oscuro</span>
+            </button>
+            <div class="profile">
+                <img src="Gustavo.jpg" alt="Gustavo Adrian Rojas" class="profile-img">
+                <h1>Gustavo Adrian Rojas</h1>
+                <h2>Desarrollador Web Full Stack</h2>
+                <div class="profile-titles">
+                    <h2>Desarrollador de Software</h2>
+                    <h2>Testing QA</h2>
+                </div>
+            </div>
+            <nav class="nav-buttons">
+                <button class="nav-btn" data-section="profile"><i class="fas fa-user"></i> Perfil</button>
+                <button class="nav-btn" data-section="experience"><i class="fas fa-briefcase"></i> Experiencia</button>
+                <button class="nav-btn" data-section="certifications"><i class="fas fa-certificate"></i> Certificaciones</button>
+                <button class="nav-btn" data-section="skills"><i class="fas fa-chart-bar"></i> Skills</button>
+                <button class="nav-btn" data-section="contact"><i class="fas fa-envelope"></i> Contacto</button>
+            </nav>
+        </header>
+
+        <section id="profile" class="section">
+            <h2><i class="fas fa-user-tie"></i> Perfil Profesional</h2>
+            <p>Desarrollador web full stack con experiencia en creación de aplicaciones web modernas y responsivas. 
+            Apasionado por el desarrollo de software limpio y eficiente, con enfoque en la experiencia del usuario.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <button class="back-button"><i class="fas fa-arrow-left"></i> Volver</button>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2><i class="fas fa-certificate"></i> Certificaciones</h2>
+            <ul class="certifications-list">
+                <!-- Certificaciones se llenarán dinámicamente con JS -->
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2><i class="fas fa-chart-bar"></i> Habilidades</h2>
+            <div class="skills-container">
+                <!-- Skills se llenarán dinámicamente con JS -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2><i class="fas fa-envelope"></i> Contacto</h2>
+            <div class="contact-info">
+                <!-- Info de contacto se llenará dinámicamente con JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script-final-updated.js"></script>
+</body>
+</html>
