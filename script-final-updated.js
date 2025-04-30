@@ -78,6 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
                             Facilitador de Habilidades Tecnológicas (Programación, Robótica, Biotecnología)
                         </li>
                         <li>
+                            <strong>2024:</strong> Fundación Telefónica Movistar<br>
+                            Coordinador Tecnológico.<br><br>
+                            Muestra Conectados: Una Mirada a la Tecnología que nos Acerca.
+                        </li>
+                        <li>
                             <strong>2024 - Actual:</strong> Dictado de Capacitaciones Tecnológicas<br>
                             <em>Capacitaciones en programación desde básica a avanzada en diferentes lenguajes.</em><br>
                             (Fundación U.N.C) Municipalidades de Guaymallén, Luján de Cuyo.<br>
